@@ -1,0 +1,27 @@
+{
+    "loginUrl": "http://<target_IP>/api/login",
+    "loginMethod": "POST",
+    "loginPayload": {
+        "username": "username",
+        "password": "password"
+    },
+
+    "tokenFieldPath": ["token"],
+   
+    "useCookieAuth": false,
+
+    "targetUrl": "http://<target_IP>/api/<targetAPI>",
+    "targetMethod": "POST",
+    "targetPayload": {},
+
+    "intervalMs": 1000,
+    "timeoutMs": 5000,
+    "reloginOn401": true,
+    "logFile": "testAPI_with_login.log"
+
+
+
+
+
+
+}
